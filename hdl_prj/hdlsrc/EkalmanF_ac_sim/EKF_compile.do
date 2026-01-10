@@ -1,0 +1,10 @@
+vlib work
+vcom  EKF_pkg.vhd
+vcom  Innovation.vhd
+vcom  Inverse_aprox.vhd
+vcom  Kalman_Gain_Calculation.vhd
+vcom  New_Innovation.vhd
+vcom  Predict.vhd
+vcom  Update.vhd
+vcom  MATLAB_Function.vhd
+vcom  EKF.vhd

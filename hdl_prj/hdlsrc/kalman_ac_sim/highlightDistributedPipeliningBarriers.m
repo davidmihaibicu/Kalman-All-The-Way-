@@ -1,0 +1,10 @@
+open_system('kalman_ac_sim');
+open_system('gm_kalman_ac_sim');
+cs.HiliteType = 'user1';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'cyan';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_kalman_ac_sim/Kalman DUT/Kalman Gain Calculation/Inverse_aprox', 'user1');
+annotate_port('gm_kalman_ac_sim/Kalman DUT/Kalman Gain Calculation/Inverse_aprox', 0, 1, 'Delays not moved into or out of a MATLAB function block. Set its architecture to "MATLAB Datapath"');
+hilite_system('kalman_ac_sim/Kalman DUT/Kalman Gain Calculation/Inverse_aprox', 'user1');
+annotate_port('kalman_ac_sim/Kalman DUT/Kalman Gain Calculation/Inverse_aprox', 0, 1, 'Delays not moved into or out of a MATLAB function block. Set its architecture to "MATLAB Datapath"');

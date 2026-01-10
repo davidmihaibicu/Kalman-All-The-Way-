@@ -1,0 +1,9 @@
+vlib work
+vcom  Kalman_DUT_pkg.vhd
+vcom  New_Innovation.vhd
+vcom  Inverse_aprox.vhd
+vcom  Kalman_Gain_Calculation.vhd
+vcom  Predict.vhd
+vcom  Innovation.vhd
+vcom  Update.vhd
+vcom  Kalman_DUT.vhd
