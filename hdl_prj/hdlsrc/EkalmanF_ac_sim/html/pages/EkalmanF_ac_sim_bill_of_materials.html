@@ -5,7 +5,7 @@ High-level Resource Utilization Report for EkalmanF_ac_sim
 </title>
 
 </head>
-<body bgcolor="#ffffff" link="0033CC" vlink="#666666" onload="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdBillOfMaterials'); else local_onload();}} catch(err) {};hdlTableShrink(this, 'Register_1_1');hdlTableShrink(this, 'Input_Port');hdlTableShrink(this, 'Output_Port');hdlTableShrink(this, 'Multiplier_3_1');hdlTableShrink(this, 'Multiplier_3_2');hdlTableShrink(this, 'Adder_3_1');hdlTableShrink(this, 'Adder_3_2');hdlTableShrink(this, 'Subtractor_3_1');hdlTableShrink(this, 'Multiplier_4_1');hdlTableShrink(this, 'Multiplier_4_2');hdlTableShrink(this, 'Adder_4_1');hdlTableShrink(this, 'Adder_4_2');hdlTableShrink(this, 'Multiplier_5_1');hdlTableShrink(this, 'Adder_5_1');hdlTableShrink(this, 'Subtractor_5_1');hdlTableShrink(this, 'Multiplier_6_1');hdlTableShrink(this, 'Multiplier_6_2');hdlTableShrink(this, 'Adder_6_1');hdlTableShrink(this, 'Adder_6_2');hdlTableShrink(this, 'Multiplier_8_1');hdlTableShrink(this, 'Adder_8_1');hdlTableShrink(this, 'Subtractor_8_1');">
+<body bgcolor="#ffffff" link="0033CC" vlink="#666666" onload="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdBillOfMaterials'); else local_onload();}} catch(err) {};hdlTableShrink(this, 'Register_1_1');hdlTableShrink(this, 'Input_Port');hdlTableShrink(this, 'Output_Port');hdlTableShrink(this, 'Multiplier_3_1');hdlTableShrink(this, 'Multiplier_3_2');hdlTableShrink(this, 'Adder_3_1');hdlTableShrink(this, 'Adder_3_2');hdlTableShrink(this, 'Subtractor_3_1');hdlTableShrink(this, 'Multiplier_4_1');hdlTableShrink(this, 'Multiplier_4_2');hdlTableShrink(this, 'Adder_4_1');hdlTableShrink(this, 'Adder_4_2');hdlTableShrink(this, 'Multiplier_6_1');hdlTableShrink(this, 'Adder_6_1');hdlTableShrink(this, 'Subtractor_6_1');hdlTableShrink(this, 'Multiplier_7_1');hdlTableShrink(this, 'Multiplier_7_2');hdlTableShrink(this, 'Adder_7_1');hdlTableShrink(this, 'Adder_7_2');hdlTableShrink(this, 'Multiplier_9_1');hdlTableShrink(this, 'Adder_9_1');hdlTableShrink(this, 'Subtractor_9_1');">
 <script>
 <!--
 function hdlTableShrink(o,tagNameStr)
@@ -152,7 +152,7 @@ Summary
 Multipliers
 </td>
 <td align="center" valign="top" style="border-style: none">
-720
+716
 </td>
 
 </tr>
@@ -161,7 +161,7 @@ Multipliers
 Adders/Subtractors
 </td>
 <td align="center" valign="top" style="border-style: none">
-666
+662
 </td>
 
 </tr>
@@ -197,7 +197,7 @@ RAMs
 Multiplexers
 </td>
 <td align="center" valign="top" style="border-style: none">
-32
+54
 </td>
 
 </tr>
@@ -591,13 +591,13 @@ Predict
 
 </h5>
 <h5>
-Multipliers (152)
+Multipliers (136)
 </h5>
 <span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplier_4_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
-32x32-bit Multiplier 							: 88
+32x32-bit Multiplier 							: 72
 </span>
 <span name="Multiplier_4_1" id="Multiplier_4_1">
 <ul>
@@ -608,14 +608,8 @@ MMul_dot_product
 
 </li>
 <li>
-<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:148\')'})"  name="code2model" class="code2model">
-MMul_dot_product_1
-</a>
-
-</li>
-<li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:62\')'})"  name="code2model" class="code2model">
-MMul_dot_product_2
+MMul_dot_product_1
 </a>
 
 </li>
@@ -633,7 +627,7 @@ MMul_dot_product_2
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:119\')'})"  name="code2model" class="code2model">
-MMul_dot_product_3
+MMul_dot_product_2
 </a>
 
 </li>
@@ -642,37 +636,19 @@ MMul_dot_product_3
 
 </span>
 <br /><h5>
-Adders/Subtractors (132)
+Adders/Subtractors (120)
 </h5>
 <span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_4_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
-64x64-bit Adder 							: 68
+64x64-bit Adder 							: 56
 </span>
 <span name="Adder_4_1" id="Adder_4_1">
 <ul>
 <li>
-<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:148\')'})"  name="code2model" class="code2model">
-MMul_add_01
-</a>
-
-</li>
-<li>
-<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:148\')'})"  name="code2model" class="code2model">
-MMul_add_12
-</a>
-
-</li>
-<li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:147\')'})"  name="code2model" class="code2model">
-MMul_add_01_1
-</a>
-
-</li>
-<li>
-<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:148\')'})"  name="code2model" class="code2model">
-MMul_add_23
+MMul_add_01
 </a>
 
 </li>
@@ -684,19 +660,19 @@ Add
 </li>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:62\')'})"  name="code2model" class="code2model">
-MMul_add_01_2
+MMul_add_01_1
 </a>
 
 </li>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:62\')'})"  name="code2model" class="code2model">
-MMul_add_12_1
+MMul_add_12
 </a>
 
 </li>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:62\')'})"  name="code2model" class="code2model">
-MMul_add_23_1
+MMul_add_23
 </a>
 
 </li>
@@ -714,19 +690,19 @@ MMul_add_23_1
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:119\')'})"  name="code2model" class="code2model">
-MMul_add_01_3
+MMul_add_01_2
 </a>
 
 </li>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:119\')'})"  name="code2model" class="code2model">
-MMul_add_12_2
+MMul_add_12_1
 </a>
 
 </li>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:119\')'})"  name="code2model" class="code2model">
-MMul_add_23_2
+MMul_add_23_1
 </a>
 
 </li>
@@ -741,6 +717,33 @@ Add1
 
 </span>
 <br /><p><hr /></p><h5>
+Report for User-defined block:    <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:320\')'})"  name="code2model" class="code2model">
+MATLAB Function
+</a>
+
+</h5>
+<h5>
+Multipliers (12)
+</h5>
+<span style="font-family:monospace">
+32x32-bit Multiplier 							: 12
+</span>
+<br /><h5>
+Adders/Subtractors (8)
+</h5>
+<span style="font-family:monospace">
+33x33-bit Adder 							: 4
+</span>
+<br /><span style="font-family:monospace">
+33x33-bit Subtractor 							: 4
+</span>
+<br /><h5>
+Multiplexers (22)
+</h5>
+<span style="font-family:monospace">
+32-bit 3-to-1 Multiplexer 							: 22
+</span>
+<br /><p><hr /></p><h5>
 Report for Subsystem:    <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:13\')'})"  name="code2model" class="code2model">
 New Innovation
 </a>
@@ -749,13 +752,13 @@ New Innovation
 <h5>
 Multipliers (16)
 </h5>
-<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplier_5_1')" onmouseover="this.style.cursor = 'pointer'">
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplier_6_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 32x32-bit Multiplier 							: 16
 </span>
-<span name="Multiplier_5_1" id="Multiplier_5_1">
+<span name="Multiplier_6_1" id="Multiplier_6_1">
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:95\')'})"  name="code2model" class="code2model">
@@ -770,13 +773,13 @@ MMul_dot_product
 <br /><h5>
 Adders/Subtractors (16)
 </h5>
-<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_5_1')" onmouseover="this.style.cursor = 'pointer'">
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_6_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 64x64-bit Adder 							: 12
 </span>
-<span name="Adder_5_1" id="Adder_5_1">
+<span name="Adder_6_1" id="Adder_6_1">
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:95\')'})"  name="code2model" class="code2model">
@@ -800,13 +803,13 @@ MMul_add_23
 </ul>
 
 </span>
-<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Subtractor_5_1')" onmouseover="this.style.cursor = 'pointer'">
+<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Subtractor_6_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 64x64-bit Subtractor 							: 4
 </span>
-<span name="Subtractor_5_1" id="Subtractor_5_1">
+<span name="Subtractor_6_1" id="Subtractor_6_1">
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:96\')'})"  name="code2model" class="code2model">
@@ -827,13 +830,13 @@ Kalman Gain Calculation
 <h5>
 Multipliers (128)
 </h5>
-<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplier_6_1')" onmouseover="this.style.cursor = 'pointer'">
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplier_7_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 32x32-bit Multiplier 							: 64
 </span>
-<span name="Multiplier_6_1" id="Multiplier_6_1">
+<span name="Multiplier_7_1" id="Multiplier_7_1">
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:121\')'})"  name="code2model" class="code2model">
@@ -845,13 +848,13 @@ MMul_dot_product
 </ul>
 
 </span>
-<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplier_6_2')" onmouseover="this.style.cursor = 'pointer'">
+<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplier_7_2')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 64x32-bit Multiplier 							: 64
 </span>
-<span name="Multiplier_6_2" id="Multiplier_6_2">
+<span name="Multiplier_7_2" id="Multiplier_7_2">
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:122\')'})"  name="code2model" class="code2model">
@@ -866,13 +869,13 @@ MMul_dot_product_1
 <br /><h5>
 Adders/Subtractors (96)
 </h5>
-<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_6_1')" onmouseover="this.style.cursor = 'pointer'">
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_7_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 64x64-bit Adder 							: 48
 </span>
-<span name="Adder_6_1" id="Adder_6_1">
+<span name="Adder_7_1" id="Adder_7_1">
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:121\')'})"  name="code2model" class="code2model">
@@ -896,13 +899,13 @@ MMul_add_23
 </ul>
 
 </span>
-<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_6_2')" onmouseover="this.style.cursor = 'pointer'">
+<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_7_2')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 96x96-bit Adder 							: 48
 </span>
-<span name="Adder_6_2" id="Adder_6_2">
+<span name="Adder_7_2" id="Adder_7_2">
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:122\')'})"  name="code2model" class="code2model">
@@ -1013,13 +1016,13 @@ Innovation
 <h5>
 Multipliers (16)
 </h5>
-<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplier_8_1')" onmouseover="this.style.cursor = 'pointer'">
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplier_9_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 32x32-bit Multiplier 							: 16
 </span>
-<span name="Multiplier_8_1" id="Multiplier_8_1">
+<span name="Multiplier_9_1" id="Multiplier_9_1">
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:155\')'})"  name="code2model" class="code2model">
@@ -1034,13 +1037,13 @@ MMul_dot_product
 <br /><h5>
 Adders/Subtractors (16)
 </h5>
-<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_8_1')" onmouseover="this.style.cursor = 'pointer'">
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_9_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 64x64-bit Adder 							: 12
 </span>
-<span name="Adder_8_1" id="Adder_8_1">
+<span name="Adder_9_1" id="Adder_9_1">
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:155\')'})"  name="code2model" class="code2model">
@@ -1064,13 +1067,13 @@ MMul_add_23
 </ul>
 
 </span>
-<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Subtractor_8_1')" onmouseover="this.style.cursor = 'pointer'">
+<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Subtractor_9_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 64x64-bit Subtractor 							: 4
 </span>
-<span name="Subtractor_8_1" id="Subtractor_8_1">
+<span name="Subtractor_9_1" id="Subtractor_9_1">
 <ul>
 <li>
 <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'EkalmanF_ac_sim:68\')'})"  name="code2model" class="code2model">

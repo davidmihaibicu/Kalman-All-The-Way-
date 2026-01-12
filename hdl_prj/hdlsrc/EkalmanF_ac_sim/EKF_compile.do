@@ -4,7 +4,8 @@ vcom  Innovation.vhd
 vcom  Inverse_aprox.vhd
 vcom  Kalman_Gain_Calculation.vhd
 vcom  New_Innovation.vhd
+vcom  MATLAB_Function.vhd
 vcom  Predict.vhd
 vcom  Update.vhd
-vcom  MATLAB_Function.vhd
+vcom  MATLAB_Function_block.vhd
 vcom  EKF.vhd

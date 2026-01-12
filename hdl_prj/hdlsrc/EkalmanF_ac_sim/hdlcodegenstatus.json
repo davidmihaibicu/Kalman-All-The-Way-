@@ -53,9 +53,10 @@
     "Inverse_aprox.vhd",
     "Kalman_Gain_Calculation.vhd",
     "New_Innovation.vhd",
+    "MATLAB_Function.vhd",
     "Predict.vhd",
     "Update.vhd",
-    "MATLAB_Function.vhd",
+    "MATLAB_Function_block.vhd",
     "EKF.vhd"
   ],
   "Latency": 0,
@@ -145,12 +146,12 @@
     0
   ],
   "ResourceSummary": {
-    "multipliers": 720,
-    "addersSubtractors": 666,
+    "multipliers": 716,
+    "addersSubtractors": 662,
     "registers": 36,
     "oneBitRegisters": 1152,
     "rams": 0,
-    "multiplexers": 32,
+    "multiplexers": 54,
     "IOBits": 453,
     "staticShiftOperators": 0,
     "dynamicShiftOperators": 0
